@@ -75,3 +75,5 @@ plt.show()
   <img src="./eqs/results.png"/>
 </div>
 
+In this code snippet `stats` library was cloned from
+<https://github.com/akononovicius/python-stats>.
