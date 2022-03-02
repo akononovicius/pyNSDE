@@ -77,3 +77,23 @@ plt.show()
 
 In this code snippet `stats` library was cloned from
 <https://github.com/akononovicius/python-stats>.
+
+## Related repositories
+
+Earlier implementation of a less flexible program solving the same nonlinear
+stochastic differential equation is available at
+<https://github.com/JuliusRuseckas/numerical-sde-variable-step>.
+
+<https://github.com/akononovicius/python-stats> library might be useful when
+analyzing simulated time series.
+
+## Related research
+
+Couple of scientific review papers specific to the SDE being solved:
+
+* B. Kaulakys and J. Ruseckas, *Stochastic nonlinear differential equation generating 1/f noise*, Phys. Rev. E **70**, 020101 (2004). doi: [10.1103/PhysRevE.70.020101](https://doi.org/10.1103/PhysRevE.70.020101). [arXiv:cond-mat/0408507 [cond-mat.stat-mech]](https://arxiv.org/abs/cond-mat/0408507).
+* B. Kaulakys, J. Ruseckas, V. Gontis and M. Alaburda, *Nonlinear stochastic models of 1/f noise and power-law distributions*, Physica A **365**, 217-221 (2006). doi: [10.1016/j.physa.2006.01.017](https://doi.org/10.1016/j.physa.2006.01.017). [arXiv:cond-mat/0509626 [cond-mat.stat-mech]](https://arxiv.org/abs/cond-mat/0509626).
+
+Recent review with variety of applications related to the SDE being solved:
+
+* R. Kazakevičius, A. Kononovicius, B. Kaulakys, V. Gontis. *Understanding the nature of the long-range memory phenomenon in socio-economic systems*. Entropy **23**: 1125 (2021). [doi: 10.3390/e23091125](https://doi.org/10.3390/e23091125). [arXiv:2108.02506 [physics.soc-ph]](https://arxiv.org/abs/2108.02506).
