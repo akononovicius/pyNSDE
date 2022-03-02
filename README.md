@@ -1,4 +1,4 @@
-# `sde` - solving nonlinear stochastic differential equation
+# `pyNSDE` - solving nonlinear stochastic differential equation
 
 Here we have implemented solution of nonlinear SDE:
 

@@ -44,7 +44,7 @@ def generate_series(
             Value of the NSDE parameter lambda, which determines the slope of
             the stationary PDF of the process.
         eta: (default: 1.5)
-            Value of the NSDE parameter eta (the nonlinearity / 
+            Value of the NSDE parameter eta (the nonlinearity /
             multiplicativity) exponent.
         x_0: (default: 2)
             Initial condition for the stochastic process.
@@ -68,7 +68,7 @@ def generate_series(
 
     Examples:
         ```
-        >> from sde import generate_series
+        >> from pyNSDE import generate_series
         >> series = generate_series(1048576, 1e-3, seed=123)
         >> series[:10]
             array([1.88769125, 1.88685838, 1.81436495, 1.87488873, 1.90115641,
@@ -78,7 +78,7 @@ def generate_series(
     # auto-generate seed
     if seed < 0:
         np.random.seed()
-        seed = np.random.randint(0, int(2 ** 20))
+        seed = np.random.randint(0, int(2**20))
 
     data = (c.c_double * n_points)()
     ___lib_c.generate_series(n_points, dt, la, eta, x_0, lb, ub, kappa, seed, data)
